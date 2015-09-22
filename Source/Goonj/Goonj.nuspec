@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Goonj</id>
+    <version>$version$</version>
+    <title>Goonj</title>
+    <authors>narkhedegs@gmail.com</authors>
+    <owners>narkhedegs@gmail.com</owners>
+    <licenseUrl>https://raw.githubusercontent.com/narkhedegs/Goonj/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/narkhedegs/Echo</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/narkhedegs/Goonj/master/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Goonj is simple C# command line utility that can be used for testing Process API in .NET.</description>
+    <copyright>Copyright (C) Gaurav Narkhede</copyright>
+    <tags>testing process</tags>
+  </metadata>
+  <files>
+    <file src="install.ps1" target="tools" />
+    <file src="uninstall.ps1" target="tools" />
+  </files>
+</package>
